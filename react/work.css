@@ -1,0 +1,43 @@
+.head ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.head ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 7px;
+    
+}
+
+ul li{
+    list-style: none;
+    font: 700 1.5rem/2rem Journal Sans New,sans-serif;
+    
+}
+
+ul li:hover a{
+    box-shadow: 0px 0px 2px 1px rgba(65, 143, 196, 0.973);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+#howItwork{
+    padding: 0 10px;
+    margin-bottom: 9px;
+    word-wrap: break-word;
+    background: #e6e6e6;
+    color:#4b4b4b;
+    border-radius: 2px;
+    padding:9px;
+    font-family: Arial, 'sans-serif';
+    
+}
+
+body{
+    background: #4b4b4b;
+}
